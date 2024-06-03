@@ -30,3 +30,15 @@ Then install the needed crates via `apt install librust-CRATE-dev` (replacing
 
 To see which crates are available in your Debian distribution, search with apt
 `apt search librust-.*-dev`.  Many are available.
+
+### Documentation
+
+Install the rust documentation which matches the version of Rust which comes
+with your Debian distribution with `apt install rust-doc`.  All the
+documentation will be located at `/usr/share/doc/rust-doc/html/` in an easy to
+browse format:
+[file:///usr/share/doc/rust-doc/html/index.html](file:///usr/share/doc/rust-doc/html/index.html)
+
+Documentation is also available online, but finding the exact version which
+matches your local install is a bit trickier:
+[https://www.rust-lang.org/learn](https://www.rust-lang.org/learn)
